@@ -1,0 +1,1 @@
+../../../SwarmSDK/SwarmSDK/Entities/Include/BLESBeaconContainer.h

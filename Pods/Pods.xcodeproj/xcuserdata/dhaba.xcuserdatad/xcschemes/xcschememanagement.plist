@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-SwarmSDKDemo-SwarmSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SwarmSDKDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SwarmSDKDemoTests-SwarmSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SwarmSDKDemoTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6438099CC0C6EEEA21901529</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>686EA61B695ACE958089047F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BE187CACAEA8049BD45862FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EDDDF4FAA05CDF9235DBE014</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

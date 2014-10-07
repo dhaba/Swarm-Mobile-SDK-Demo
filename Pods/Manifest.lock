@@ -1,0 +1,14 @@
+PODS:
+  - SwarmSDK (1.5)
+
+DEPENDENCIES:
+  - SwarmSDK (from `https://github.com/Swarm-Mobile/Swarm-iOS-SDK.git`)
+
+EXTERNAL SOURCES:
+  SwarmSDK:
+    :git: https://github.com/Swarm-Mobile/Swarm-iOS-SDK.git
+
+SPEC CHECKSUMS:
+  SwarmSDK: b50c5f1607054f1a5da118c681baab56647b467c
+
+COCOAPODS: 0.34.1
