@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwarmSDK.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

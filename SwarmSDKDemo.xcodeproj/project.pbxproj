@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570E95A7B2E30C846D744790 /* libPods-SwarmSDKDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7127FE9AA72D8CE7CB7A3318 /* libPods-SwarmSDKDemoTests.a */; };
 		6394819819E3961F00CBD3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6394819719E3961F00CBD3B8 /* Foundation.framework */; };
 		6394819A19E3961F00CBD3B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6394819919E3961F00CBD3B8 /* CoreGraphics.framework */; };
 		6394819C19E3961F00CBD3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6394819B19E3961F00CBD3B8 /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		639481B919E3962000CBD3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6394819B19E3961F00CBD3B8 /* UIKit.framework */; };
 		639481C119E3962000CBD3B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 639481BF19E3962000CBD3B8 /* InfoPlist.strings */; };
 		639481C319E3962000CBD3B8 /* SwarmSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 639481C219E3962000CBD3B8 /* SwarmSDKDemoTests.m */; };
+		639481CE19E3993500CBD3B8 /* SwarmSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 639481CD19E3993500CBD3B8 /* SwarmSDKManager.m */; };
+		A6192A57087E540B4C0DB99C /* libPods-SwarmSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 070D62FC07D2BC5BE88EF669 /* libPods-SwarmSDKDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070D62FC07D2BC5BE88EF669 /* libPods-SwarmSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwarmSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7C12FA7CC77F56D2CF66FA /* Pods-SwarmSDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmSDKDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmSDKDemoTests/Pods-SwarmSDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		18B869A4AFC7C28398480E24 /* Pods-SwarmSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmSDKDemo/Pods-SwarmSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6394819419E3961F00CBD3B8 /* SwarmSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6394819719E3961F00CBD3B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6394819919E3961F00CBD3B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,11 @@
 		639481BE19E3962000CBD3B8 /* SwarmSDKDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwarmSDKDemoTests-Info.plist"; sourceTree = "<group>"; };
 		639481C019E3962000CBD3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		639481C219E3962000CBD3B8 /* SwarmSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwarmSDKDemoTests.m; sourceTree = "<group>"; };
+		639481CC19E3993500CBD3B8 /* SwarmSDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwarmSDKManager.h; sourceTree = "<group>"; };
+		639481CD19E3993500CBD3B8 /* SwarmSDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwarmSDKManager.m; sourceTree = "<group>"; };
+		7127FE9AA72D8CE7CB7A3318 /* libPods-SwarmSDKDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwarmSDKDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BAC4FB6A6FB2D7EBD8E8F6 /* Pods-SwarmSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmSDKDemo/Pods-SwarmSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F14ADE1844715C4F0ABB6470 /* Pods-SwarmSDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwarmSDKDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwarmSDKDemoTests/Pods-SwarmSDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +74,7 @@
 				6394819A19E3961F00CBD3B8 /* CoreGraphics.framework in Frameworks */,
 				6394819C19E3961F00CBD3B8 /* UIKit.framework in Frameworks */,
 				6394819819E3961F00CBD3B8 /* Foundation.framework in Frameworks */,
+				A6192A57087E540B4C0DB99C /* libPods-SwarmSDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +85,7 @@
 				639481B719E3962000CBD3B8 /* XCTest.framework in Frameworks */,
 				639481B919E3962000CBD3B8 /* UIKit.framework in Frameworks */,
 				639481B819E3962000CBD3B8 /* Foundation.framework in Frameworks */,
+				570E95A7B2E30C846D744790 /* libPods-SwarmSDKDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +99,7 @@
 				639481BC19E3962000CBD3B8 /* SwarmSDKDemoTests */,
 				6394819619E3961F00CBD3B8 /* Frameworks */,
 				6394819519E3961F00CBD3B8 /* Products */,
+				814EE0ED87F81E6D24536E8D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,8 @@
 				6394819919E3961F00CBD3B8 /* CoreGraphics.framework */,
 				6394819B19E3961F00CBD3B8 /* UIKit.framework */,
 				639481B619E3962000CBD3B8 /* XCTest.framework */,
+				070D62FC07D2BC5BE88EF669 /* libPods-SwarmSDKDemo.a */,
+				7127FE9AA72D8CE7CB7A3318 /* libPods-SwarmSDKDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +133,8 @@
 				639481A919E3961F00CBD3B8 /* Main.storyboard */,
 				639481AC19E3961F00CBD3B8 /* ViewController.h */,
 				639481AD19E3961F00CBD3B8 /* ViewController.m */,
+				639481CC19E3993500CBD3B8 /* SwarmSDKManager.h */,
+				639481CD19E3993500CBD3B8 /* SwarmSDKManager.m */,
 				639481AF19E3961F00CBD3B8 /* Images.xcassets */,
 				6394819E19E3961F00CBD3B8 /* Supporting Files */,
 			);
@@ -152,6 +170,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		814EE0ED87F81E6D24536E8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18B869A4AFC7C28398480E24 /* Pods-SwarmSDKDemo.debug.xcconfig */,
+				C6BAC4FB6A6FB2D7EBD8E8F6 /* Pods-SwarmSDKDemo.release.xcconfig */,
+				F14ADE1844715C4F0ABB6470 /* Pods-SwarmSDKDemoTests.debug.xcconfig */,
+				0A7C12FA7CC77F56D2CF66FA /* Pods-SwarmSDKDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 639481C619E3962000CBD3B8 /* Build configuration list for PBXNativeTarget "SwarmSDKDemo" */;
 			buildPhases = (
+				9E8297C2591199C245AC6597 /* Check Pods Manifest.lock */,
 				6394819019E3961F00CBD3B8 /* Sources */,
 				6394819119E3961F00CBD3B8 /* Frameworks */,
 				6394819219E3961F00CBD3B8 /* Resources */,
+				45F88C8C6D36E169875FF8CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 639481C919E3962000CBD3B8 /* Build configuration list for PBXNativeTarget "SwarmSDKDemoTests" */;
 			buildPhases = (
+				F5D7EE6047847D4A332A27F6 /* Check Pods Manifest.lock */,
 				639481B119E3962000CBD3B8 /* Sources */,
 				639481B219E3962000CBD3B8 /* Frameworks */,
 				639481B319E3962000CBD3B8 /* Resources */,
+				FFC17C197E8AA26E5D4EF613 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +277,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45F88C8C6D36E169875FF8CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarmSDKDemo/Pods-SwarmSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8297C2591199C245AC6597 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D7EE6047847D4A332A27F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC17C197E8AA26E5D4EF613 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwarmSDKDemoTests/Pods-SwarmSDKDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6394819019E3961F00CBD3B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -252,6 +348,7 @@
 				639481AE19E3961F00CBD3B8 /* ViewController.m in Sources */,
 				639481A819E3961F00CBD3B8 /* AppDelegate.m in Sources */,
 				639481A419E3961F00CBD3B8 /* main.m in Sources */,
+				639481CE19E3993500CBD3B8 /* SwarmSDKManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +472,7 @@
 		};
 		639481C719E3962000CBD3B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B869A4AFC7C28398480E24 /* Pods-SwarmSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +486,7 @@
 		};
 		639481C819E3962000CBD3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6BAC4FB6A6FB2D7EBD8E8F6 /* Pods-SwarmSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -401,6 +500,7 @@
 		};
 		639481CA19E3962000CBD3B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14ADE1844715C4F0ABB6470 /* Pods-SwarmSDKDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwarmSDKDemo.app/SwarmSDKDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -423,6 +523,7 @@
 		};
 		639481CB19E3962000CBD3B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7C12FA7CC77F56D2CF66FA /* Pods-SwarmSDKDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwarmSDKDemo.app/SwarmSDKDemo";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -458,6 +559,7 @@
 				639481C819E3962000CBD3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		639481C919E3962000CBD3B8 /* Build configuration list for PBXNativeTarget "SwarmSDKDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +568,7 @@
 				639481CB19E3962000CBD3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
